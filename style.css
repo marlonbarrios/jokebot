@@ -28,6 +28,13 @@ button {
 }
 
 
+.button-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .container {
   height: 100vh;
@@ -57,6 +64,19 @@ cursor: default;
 filter: brightness(30%);
 
 }
+
+.footer  {
+ 
+
+  justify-content: center;
+  align-items: center;
+  
+}
+p, a {
+  color: #ff3482;;
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /* media query Tablet or smaller */
 @media screen and (max-with: 100px) {
   .container {
@@ -66,6 +86,6 @@ filter: brightness(30%);
   }
   button {
     box-shadow: 5px 5px 30px 20px rgba(0,0,0, 0.5);
-
   }
+ 
 }
